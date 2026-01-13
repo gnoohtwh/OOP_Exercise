@@ -1,0 +1,14 @@
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/bin/Debug/net9.0/Buoi2
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/bin/Debug/net9.0/Buoi2.deps.json
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/bin/Debug/net9.0/Buoi2.runtimeconfig.json
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/bin/Debug/net9.0/Buoi2.dll
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/bin/Debug/net9.0/Buoi2.pdb
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/Buoi2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/Buoi2.AssemblyInfoInputs.cache
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/Buoi2.AssemblyInfo.cs
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/Buoi2.csproj.CoreCompileInputs.cache
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/Buoi2.dll
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/refint/Buoi2.dll
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/Buoi2.pdb
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/Buoi2.genruntimeconfig.cache
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/Debug/net9.0/ref/Buoi2.dll
