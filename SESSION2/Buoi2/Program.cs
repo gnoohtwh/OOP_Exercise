@@ -41,7 +41,7 @@ class Program
     }
 }
 
-/* ------------LAB 02--------------
+/* ------------LAB 02----------------------
 Một lớp Point gồm có 2 thuộc tính: x, y (float), là toạ độ của điểm trong hệ toạ độ Decartes.
 1/ Hãy khai báo lớp Point trên
 2/ Bổ sung 3 dạng constructor: không tham số, có tham số và copy constructor.
