@@ -8,6 +8,40 @@ Hãy bổ sung với Vector class các phương thức sau đây:
 
 
 */
+public class Human
+{
+    public string name{get;set;}
+    public DateTime bod {get;set;}
+    public bool gender{get;set;}
+
+    public Human(string name,DateTime bod, bool gender)
+    {
+        this.name = name;
+        this.bod = bod;
+        this.gender = gender;
+    }
+    public string getInfo()
+    {
+        return $"Name:{name}, Birth: {bod}, Gender: {(gender ?"M":"F")}";
+    }
+}
+public class Employee : Human
+{
+    public string Eid {get;set;}
+    public double salCoef {get;set;}
+
+    public DateTime partiCi {get;set;}
+    public Employee(string name, DateTime bod,bool gender, string Eid, double salCoef,DateTime partiCi) :base(name,bod,gender)
+    {
+        this.Eid = Eid;
+        this.salCoef = salCoef;
+        this.partiCi = partiCi;
+    }
+    public string getInfo()
+    {
+        return $"id: {Eid}"+base.getInfo() + $",Salary Coef: {salCoef}, Participation date: {partiCi}";
+    }
+}
 public class Course
 {
     
@@ -24,6 +58,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Human man = new Human("Thu",new DateTime(),true);
+        Employee manE = new Employee("Thu",new DateTime(),true,"001",4.5,new DateTime());
     }
 }
