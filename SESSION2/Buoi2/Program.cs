@@ -1,45 +1,7 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Drawing;
+using System.Text.RegularExpressions;
 
 namespace Buoi2;
-
-class Employee
-{
-    private string name;
-
-    public string getName()
-    {
-        return name;
-    }
-    public string setName(string ht)
-    {
-        name = ht;
-        return name;
-    }
-}
-class Program
-{
-    static void Main(string[] args)
-    {
-        Group g = new Group();
-        g.AddStu(new Student("001","Teof",9.9));
-
-        // Console.WriteLine("Hello, World!");
-        // Student stu1 = new Student();
-        // Student stu2 = new Student("002", "teo", 3.6);
-
-        // stu1.StuInfo();
-        // stu2.StuInfo();
-
-        // Student stu3 = stu2;
-
-        // // stu3.stuName = "Teof"; // stu3 va stu2 deu co ten la Teof // coi lai cho nay thu
-
-        // Student stu4 = new Student(stu2);
-        // stu4.StuInfo();
-        g.printStuL();
-
-    }
-}
 
 /* ------------LAB 02----------------------
 Một lớp Point gồm có 2 thuộc tính: x, y (float), là toạ độ của điểm trong hệ toạ độ Decartes.
@@ -53,3 +15,61 @@ Một lớp Point gồm có 2 thuộc tính: x, y (float), là toạ độ của
 
 
 */
+
+class Program
+{
+    static bool TriangleCheck(DecPoint p1,DecPoint p2,DecPoint p3)
+    {
+        double a = p1.x*(p2.y-p3.y)+p2.x*(p3.y-p1.y)+p3.x*(p1.y*p2.y);
+        if(a==0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+    static void Main(string[] args)
+    {
+        DecPoint p = new DecPoint(1, 2);
+        p.ShowInfo(); // Show info
+
+        DecPoint p2 = new DecPoint(2,3);
+        DecPoint p3 = new DecPoint(5,6);
+        double res = p.Dist2P(p,p2); // Tinh khoang cach giua 2 diem
+        Console.Write(res);
+        int quart = p.QuartCheck(p);
+        if(quart == 1){
+             Console.WriteLine("Goc phan tu thu nhat");
+             }
+        else if(quart ==2 )
+        {
+            Console.WriteLine("Goc phan tu thu 2");
+        }
+        else if(quart ==3 )
+        {
+            Console.WriteLine("Goc phan tu thu 3");
+        }
+        else if(quart ==4 )
+        {
+            Console.WriteLine("Goc phan tu thu 4");
+        }
+        else 
+        {
+            Console.WriteLine("Khong thuoc goc phan tu nao");
+        }
+        bool SymCheck = p.CheckSymmetrical(p,p2);
+        Console.WriteLine(SymCheck); // Kiem tra co doi xung hay khong
+
+        bool triangleCre = TriangleCheck(p,p3,p2);
+        Console.WriteLine(triangleCre);
+
+        // bool result = p.CheckSymmetrical(p,p2);
+        // List<DecPoint> pL = new List<DecPoint>();
+        // pL.Add(new DecPoint());
+
+    }
+}
+
+
