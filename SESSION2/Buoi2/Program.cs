@@ -1,4 +1,6 @@
-﻿using System.Drawing;
+﻿using System.ComponentModel;
+using System.Drawing;
+using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 
 namespace Buoi2;
@@ -15,6 +17,7 @@ Một lớp Point gồm có 2 thuộc tính: x, y (float), là toạ độ của
 
 
 */
+
 
 class Program
 {
@@ -64,6 +67,12 @@ class Program
 
         bool triangleCre = TriangleCheck(p,p3,p2);
         Console.WriteLine(triangleCre);
+        if(triangleCre)
+        {
+            p.ShowInfo();
+            p2.ShowInfo();
+            p3.ShowInfo();
+        }
 
         // bool result = p.CheckSymmetrical(p,p2);
         // List<DecPoint> pL = new List<DecPoint>();

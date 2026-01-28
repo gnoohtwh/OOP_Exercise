@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/Buoi2.csproj",
+      "projectUniqueName": "/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION2/Buoi2/Buoi2.csproj",
       "projectName": "Buoi2",
-      "projectPath": "/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/Buoi2.csproj",
+      "projectPath": "/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION2/Buoi2/Buoi2.csproj",
       "packagesPath": "/Users/nguyenhuuthong/.nuget/packages/",
-      "outputPath": "/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION1/Buoi2/obj/",
+      "outputPath": "/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION2/Buoi2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nguyenhuuthong/.nuget/NuGet/NuGet.Config"

@@ -1,4 +1,4 @@
-class Group
+public class Group
 {
     private List<Student> stuList;
 
@@ -8,7 +8,7 @@ class Group
         stuList = new List<Student>();
 
     }
-    public List<Student> List{ get => stuList;set => stuList = value;}
+    public List<Student> List { get => stuList; set => stuList = value; }
 
     public void AddStu(Student s)
     {
@@ -16,8 +16,8 @@ class Group
     }
     public void printStuL()
     {
-        
-        foreach(Student s in stuList)
+
+        foreach (Student s in stuList)
         {
             Console.WriteLine($"{s.id} {s.stuName} {s.GPA}");
         }

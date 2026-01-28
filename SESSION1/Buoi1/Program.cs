@@ -17,6 +17,9 @@ In thong tin toan bo hang hoa
 
 */
 using System.Data;
+using System.Net.Http.Headers;
+using System.Security.Authentication;
+using System.Security.Cryptography;
 
 public struct HangHoa // a. Xay dung ban ghi sinh vien
 {
@@ -97,14 +100,15 @@ internal class Program
     static double CartPurchasing(List<HangHoa> cart)
     {
 
-        double sumProd = 0;
+        double sumPProd = 0;
+        
         foreach (HangHoa hh in cart)
         {
 
-            sumProd = sumProd + hh.dongia;
+            sumPProd = sumPProd + hh.dongia * hh.soluong;
 
         }
-        return sumProd;
+        return sumPProd;
     }
     static void Main(string[] args)
     {
@@ -117,7 +121,12 @@ internal class Program
 
         Console.WriteLine("Nhap ten mon hang can tim: ");
         string name = Console.ReadLine();
-        findProdByName(prodL, name);
+        List<HangHoa> findProdlist = findProdByName(prodL, name);
+        foreach(HangHoa hh in findProdlist)
+        {
+            Console.WriteLine(hh.tenhang,hh.soluong);
+        }
+        
 
         Console.WriteLine("Enter the minimum price: ");
         double min = Convert.ToDouble(Console.ReadLine());
@@ -125,13 +134,17 @@ internal class Program
         Console.WriteLine("Enter the maximum price: ");
         double max = Convert.ToDouble(Console.ReadLine());
 
-        PriceRange(prodL, min, max);
+        List<HangHoa> PriceRangeL = PriceRange(prodL, min, max);
+        foreach(HangHoa hh in PriceRangeL)
+        {
+            Console.WriteLine(hh.tenhang,hh.soluong );
+        }
 
         Console.WriteLine("Nhap ten 1 san pham them vao gio hang: ");
         string nameProd = Console.ReadLine();
-        GioHang(cart, nameProd, prodL);
+        GioHang(cart, nameProd, prodL); // lap theo lenngth cua 
         Console.WriteLine("Tong so tien phai tra");
-        Console.WriteLine(CartPurchasing(cart));
+        Console.WriteLine(CartPurchasing(cart)); 
     }
 
 

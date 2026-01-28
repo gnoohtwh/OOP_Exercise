@@ -1,0 +1,15 @@
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/bin/Debug/net9.0/Session3
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/bin/Debug/net9.0/Session3.deps.json
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/bin/Debug/net9.0/Session3.runtimeconfig.json
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/bin/Debug/net9.0/Session3.dll
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/bin/Debug/net9.0/Session3.pdb
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/Session3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/Session3.AssemblyInfoInputs.cache
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/Session3.AssemblyInfo.cs
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/Session3.csproj.CoreCompileInputs.cache
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/Session3.sourcelink.json
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/Session3.dll
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/refint/Session3.dll
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/Session3.pdb
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/Session3.genruntimeconfig.cache
+/Users/nguyenhuuthong/Desktop/[UEH][HKD26]OOP/[OOP][EXERCISE] /SESSION3/Session3/obj/Debug/net9.0/ref/Session3.dll
